@@ -1,0 +1,20 @@
+{
+  "name": "gtt-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:build": "tsc --watch & nodemon dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.3"
+  }
+}
